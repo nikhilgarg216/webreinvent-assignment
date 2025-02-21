@@ -23,10 +23,10 @@ const { data } = await useFetch('https://dummyjson.com/posts');
 const posts = data.value?.posts || [];
 
 useHead({
-    title: 'WebInvent - All Posts',
+    title: 'WebReinvent - All Posts',
     meta: [
         { name: 'description', content: 'Read the latest blog posts ' }, 
-        { property: 'og:title', content: 'Latest Blog Posts - WebInvent' }, 
+        { property: 'og:title', content: 'Latest Blog Posts - WebReinvent ' }, 
         { property: 'og:type', content: 'website' }
     ]
 });

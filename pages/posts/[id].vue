@@ -1,7 +1,7 @@
 <template>
     <div>
         <Head>
-            <Title>WebInvent | {{ post.title }}</Title>
+            <Title>WebReinvent | {{ post.title }}</Title>
             <Meta name="description" :content="post.body"> </Meta>
         </Head>
         <PostCard :post="post" />
@@ -11,7 +11,7 @@
 <script setup>
 import { Head } from '#components';
 
-// import { useRoute, useFetch } from '#imports'
+
 definePageMeta({
     layout: 'detail'
 })

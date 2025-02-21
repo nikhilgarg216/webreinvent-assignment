@@ -5,9 +5,9 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   app: {
     head: {
-      title: "webInvent-assignment",
+      title: "WebReinvent-assignment",
       meta: [
-        { name: "descrption", content: "webInvent-assignment | all Posts" },
+        { name: "descrption", content: "WebReinvent-assignment | all Posts" },
       ],
     },
   },
