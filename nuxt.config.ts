@@ -7,11 +7,8 @@ export default defineNuxtConfig({
     head: {
       title: "webInvent-assignment",
       meta: [
-        { name: "descrption", content: "everything" }
+        { name: "descrption", content: "webInvent-assignment | all Posts" },
       ],
-      link:[
-        { rel: 'stylesheet', href: ''}
-      ]
     },
   },
 });
